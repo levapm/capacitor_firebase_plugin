@@ -1,8 +1,13 @@
+//
+//  myPlugins.m
+//  Capacitor
+//
+//  Created by Pavel Manzanares on 12/14/18.
+//
+
 #import <Foundation/Foundation.h>
 #import <Capacitor/Capacitor.h>
 
-// Define the plugin using the CAP_PLUGIN Macro, and
-// each method the plugin supports using the CAP_PLUGIN_METHOD macro.
-CAP_PLUGIN(Firebase, "Firebase",
-           CAP_PLUGIN_METHOD(echo, CAPPluginReturnPromise);
-)
+CAP_PLUGIN(CAPToken, "Firebase",
+           CAP_PLUGIN_METHOD(getToken, CAPPluginReturnPromise);
+           )
