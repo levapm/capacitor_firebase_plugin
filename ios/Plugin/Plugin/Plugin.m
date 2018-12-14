@@ -9,5 +9,5 @@
 #import <Capacitor/Capacitor.h>
 
 CAP_PLUGIN(CAPToken, "Firebase",
-           CAP_PLUGIN_METHOD(getToken, CAPPluginReturnPromise);
-           )
+    CAP_PLUGIN_METHOD(getToken, CAPPluginReturnPromise);
+)

@@ -9,9 +9,8 @@ export class FirebaseWeb extends WebPlugin implements FirebasePlugin {
     });
   }
 
-  async getToken(options: { value: string }): Promise<{value: string}> {
-    console.log('ECHO', options);
-    return Promise.resolve({ value: options.value });
+  async getToken(): Promise<any> {
+    return Promise.resolve({});
   }
 }
 

@@ -5,5 +5,5 @@ declare global {
 }
 
 export interface FirebasePlugin {
-  getToken(options: { value: string }): Promise<{value: string}>;
+  getToken(): Promise<any>;
 }
