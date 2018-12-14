@@ -1,6 +1,6 @@
 
   Pod::Spec.new do |s|
-    s.name = 'MyFirebase'
+    s.name = 'MyCapFirebase'
     s.version = '0.0.1'
     s.summary = 'Get token registered by Firebase'
     s.license = 'MIT'

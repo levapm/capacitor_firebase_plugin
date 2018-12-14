@@ -1,5 +1,5 @@
 {
-  "name": "my-firebase",
+  "name": "my-cap-firebase",
   "version": "0.0.1",
   "description": "Get token registered by Firebase",
   "main": "dist/esm/index.js",
